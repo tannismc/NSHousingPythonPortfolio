@@ -17,7 +17,7 @@ Housing Market Indicators for Nova Scotia (time series)
 Canada Mortgage and Housing Corporation (CMHC), Housing Market Indicators for Nova Scotia, 1990-2016, accessed on June 16, 2022. This information is reproduced and distributed on an “as is” basis with the permission of CMHC.
 
 A third table was referred to in the final Tableau storyboard:
-Statistics Canada Table 11-10-0191-01 Income statistics by economic family type and income source. DOI = https://doi.org/10.25318/1110013510.eng
+Statistics Canada Table 11-10-0191-01 Income statistics by economic family type and income source. 
 
 The Statistics Canada 2016 Census Boundary file was used for the maps of Canada. A map of Nova Scotia was extracted from the same file. Shapefiles for Canada and Nova Scotia were exported from QGIS with a Statistics Canada Lambert Conformal Conic projection and used as custom background maps in the Tableau Storyboard. The Geopandas library was used in the Python analysis to ensure maps were generated with a Lambert Conformal Conic projection rather than a Mercator Projection (the Mercator projection grossly distorts most of northern Canada).
 
