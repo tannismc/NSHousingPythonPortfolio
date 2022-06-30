@@ -1,0 +1,6 @@
+housing_costs_flag,count
+$1600 - $2400 /month,25721.2485
+$800 - $1600 /month,137425.7557
+< $800/month,106792.5336
+> $2400 /month,3920.1875
+House paid in full,136134.446
